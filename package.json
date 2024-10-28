@@ -1,0 +1,27 @@
+{
+  "name": "playwright-cumcumber-automaton",
+  "version": "1.0.0",
+  "description": "Automation project with playwright and cucumber.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Careine/Playwright-Cumcumber-Automaton.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Careine/Playwright-Cumcumber-Automaton/issues"
+  },
+  "homepage": "https://github.com/Careine/Playwright-Cumcumber-Automaton#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.0.1",
+    "@faker-js/faker": "^9.0.3",
+    "@playwright/test": "^1.48.1",
+    "@types/node": "^22.7.9",
+    "dotenv": "^16.4.5"
+  }
+}

@@ -1,0 +1,315 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "authentification;login-successful",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Login successful",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 265950293
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to demo.orangehrmlive.com",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1638123170
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter the username as \"Admin\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2435327587
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I enter the password as \"admin123\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26655276
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click on login button",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5787061700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should be redirect on dashboard page",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2012037562
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 51730031
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "authentification;login-failure",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Login failure",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 160591046
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to demo.orangehrmlive.com",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1745479808
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I enter the fakeusername as \"\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 833142136
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I enter the fakepassword as \"\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25134710
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I click on login button",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5428917159
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I have received the error message",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64161444
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 44485780
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "authentification;logout",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Logout",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 125118066
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to demo.orangehrmlive.com",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1775125928
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I enter the username as \"Admin\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2824663404
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I enter the password as \"admin123\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22362304
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I click on login button",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5762235119
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I should be redirect on dashboard page",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2009392019
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I click profil button, I can click on logout button",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1099383044
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I should be redirect on login page",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69944382
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 48218584
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "authentification",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Authentification",
+    "tags": [],
+    "uri": "src/test/features/login.feature"
+  }
+]
