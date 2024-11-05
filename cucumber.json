@@ -1,7 +1,7 @@
 {
     "default": {
         "paths": [
-            "src/test/features/employee.feature"
+            "src/test/features/*.feature"
         ],
         "require": [
             "src/test/steps/*.js",
