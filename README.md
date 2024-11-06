@@ -11,13 +11,11 @@ Before starting, please ensure that you have the following items installed on yo
 ## Installation
 
 1. Clone repository :
-
    ```bash
    git clone https://github.com/Careine/Playwright-Cumcumber-Automaton.git
    cd Playwright-Cumcumber-Automaton
    ```
 2. Install npm or yarm dependencies:
-
    ```bash
    npm install
    ```
@@ -30,9 +28,9 @@ Before starting, please ensure that you have the following items installed on yo
    npm i @cucumber/cucumber
    ```
 6. Install Faker 
-  ```bash
-  npm install --save-dev @faker-js/faker
-  ```
+   ```bash
+   npm install --save-dev @faker-js/faker
+   ```
 ## Use
 
 ### Run tests
