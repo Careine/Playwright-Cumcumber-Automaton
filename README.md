@@ -33,7 +33,7 @@ Before starting, please ensure that you have the following items installed on yo
   ```bash
   npm install --save-dev @faker-js/faker
  ```
-## Utilisation
+## Use
 
 ### Run tests
    ```bash
@@ -47,11 +47,11 @@ Before starting, please ensure that you have the following items installed on yo
    npx playwright test --browser=webkit
    ```
 
-### Open test report Ouvrir le rapport des tests
+### Open test report
  ```bash
-xdg-open cucumber-report.html  # Pour Linux
-open cucumber-report.html       # Pour macOS
-start cucumber-report.html      # Pour Windows
+xdg-open cucumber-report.html  # For Linux
+open cucumber-report.html       # For macOS
+start cucumber-report.html      # For Windows
 ```
 
 ### Launch in headless or non-headless mode
