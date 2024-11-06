@@ -60,7 +60,7 @@ By default, tests run in headless mode. To run in non-headless mode, add the --h
    npm test run --headed
    ```
 
-## Structure du projet
+## Project structure
  ```bash
   PLAYWRIGHT-CUCUMBER-AUTOMATON/
   ├── .github/workflows                 # Contains GitHub Actions workflows
