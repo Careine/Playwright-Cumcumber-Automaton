@@ -10,7 +10,7 @@ function formatDate(date) {
 function generateFakeInformation(){
     const birthday = faker.date.birthdate({ min: 18, max: 65, mode: 'age' });
     return{
-        username: faker.internet.userName(),
+        username: faker.internet.username(),
         password: faker.internet.password(),
         firstname: faker.person.firstName(),
         lastname: faker.person.lastName(),

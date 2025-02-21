@@ -1,0 +1,1190 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "crud-employee;list-of-employee",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "List of employee",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 241095584
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to demo.orangehrmlive.com",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1242620249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I enter the username as \"Admin\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2195226375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I enter the password as \"admin123\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43578583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on login button",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5756030625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I should be redirect on dashboard page",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2006166542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I click on the PIM menu",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 446541624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should be redirected to the list of employees page",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2004651959
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 33661207
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "crud-employee;add-staff-and-create-login-detail",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Add staff and create login detail",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 129819333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to demo.orangehrmlive.com",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1181912500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I enter the username as \"Admin\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2210795124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I enter the password as \"admin123\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52973417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on login button",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5771200084
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I should be redirect on dashboard page",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2005775499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I click on the PIM menu",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 460175457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I click on add button, I redirected to add employee page",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2628031417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I enter staff firstname as \"\"",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11414500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I enter staff lastname as \"\"",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12958290
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I click on toggle create login detail",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2023753333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I enter username as ''",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11948625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I enter password, I confirme the password as ''",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18137625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I click on save button",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23232875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I see a successful message",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:100"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1798029832
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 25768917
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "crud-employee;search-staff",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Search staff",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 132371624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to demo.orangehrmlive.com",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1185006166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I enter the username as \"Admin\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2220271874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I enter the password as \"admin123\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46492208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on login button",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5750796957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I should be redirect on dashboard page",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2004125124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I click on the PIM menu",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 445360416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I enter the employee name to search",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 213383874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I click on search button",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14848833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "I have the result of my research",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:84"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 346147291
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 20375333
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "crud-employee;edit-employee-information",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Edit employee information",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 106976791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to demo.orangehrmlive.com",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1251591207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I enter the username as \"Admin\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2189478458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I enter the password as \"admin123\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46703166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on login button",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5724007917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I should be redirect on dashboard page",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2005228208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "I click on the PIM menu",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 432463083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I enter the employee name to search",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 218473583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I click on search button",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21226499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "I have the result of my research",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:84"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 321355582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "I click on edit button",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:67"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 30001364208,
+              "error_message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div[1]/div/div[9]/div/button[1]/i')\u001b[22m\n\n    at World.<anonymous> (/Users/carolineokou/Documents/Automatisation/Playwright-Cumcumber-Automaton/src/test/steps/employeeSteps.js:68:126)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "I should be redirected by employee details",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:71"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "I enter employee's birthday as \"\"",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:75"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I select the gender",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:80"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "I click the save button on the detailed employee page",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:50"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "I see a successful message",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:100"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13929125
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "crud-employee;delete-employee",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Delete employee",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 144163124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to demo.orangehrmlive.com",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1294893666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I enter the username as \"Admin\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2788375499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I enter the password as \"admin123\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7897207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on login button",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7376320915
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I should be redirect on dashboard page",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2004521250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "I click on the PIM menu",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1056247499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "I enter the employee name to search",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 329546667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "I click on search button",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22924207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "I have the result of my research",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:84"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 786832417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "I click on delete button",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67407624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "I see a successful message",
+            "match": {
+              "location": "src/test/steps/employeeSteps.js:100"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 178322709
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10637125
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "crud-employee",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "CRUD Employee",
+    "tags": [],
+    "uri": "src/test/features/employee.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "authentification;login-successful",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Login successful",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 121215165
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to demo.orangehrmlive.com",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1610450916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter the username as \"Admin\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2284775083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I enter the password as \"admin123\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7657707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click on login button",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6844514083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should be redirect on dashboard page",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2005740833
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 30552500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "authentification;login-failure",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Login failure",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 139818708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to demo.orangehrmlive.com",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1261291207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I enter the fakeusername as \"\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 329266541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I enter the fakepassword as \"\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3997292
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I click on login button",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5462428417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I have received the error message",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26499790
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14070791
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "authentification;logout",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Logout",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 124100999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to demo.orangehrmlive.com",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1237089042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I enter the username as \"Admin\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2204875667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I enter the password as \"admin123\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16607292
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I click on login button",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5755391875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I should be redirect on dashboard page",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2005075416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I click profil button, I can click on logout button",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1258874624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I should be redirect on login page",
+            "match": {
+              "location": "src/test/steps/loginSteps.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11453790
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 15019291
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "authentification",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Authentification",
+    "tags": [],
+    "uri": "src/test/features/login.feature"
+  }
+]
