@@ -18,11 +18,11 @@ Feature: Employee Management
     Scenario: Add a new employee successfully
         When I click on the PIM menu
         And I click on add button, I redirected to add employee page
-        And I enter staff firstname as "John"
-        And I enter staff lastname as "Doe"
+        And I enter staff firstname as ""
+        And I enter staff lastname as ""
         And I click on toggle create login detail
-        And I enter username as "johndoe"
-        And I enter password, I confirme the password as "Password123!"
+        And I enter username as ""
+        And I enter password, I confirme the password as ""
         And I click on save button
         Then I see a successful message
     
@@ -39,7 +39,7 @@ Feature: Employee Management
         And I have the result of my research
         And I click on edit button
         And I should be redirected by employee details
-        And I enter employee's birthday as "1990-01-01"
+        And I enter employee's birthday as ""
         And I select the gender 
         And I click the save button on the detailed employee page
         Then I see a successful message

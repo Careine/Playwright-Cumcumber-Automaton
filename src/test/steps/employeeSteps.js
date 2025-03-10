@@ -16,7 +16,7 @@ const birthdayUser = generateFakeInformation().birthday;
 const nameuser = generateFakeInformation().username;
 const pwd = generateFakeInformation().password;
 const nickname = generateFakeInformation().nickname;
-let searchUser = "A"
+let searchUser = "a"
 
 // ====== Navigation dans l'application ======
 When('I click on the PIM menu', async function () {
@@ -60,7 +60,7 @@ When("I click on save button", async function () {
 });
 
 When("I click the save button on the detailed employee page", async function () {
-    await page.locator('//*[@id="app"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[5]/button').click();
+    await page.locator('//*[@id="app"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[4]/button').click();
 });
 
 // ====== Recherche d'employés ======
@@ -100,7 +100,8 @@ When("I have the result of my research", async function () {
 
 // ====== Suppression d'employé ======
 When("I click on delete button", async function () {
-    await page.locator('//*[@id="app"]/div[1]/div[2]/div[2]/div/div[2]/div[3]/div/div/div[2]/div/div/div[1]/div[2]/div/div/button[2]').click();
+    await page.waitForSelector('.oxd-icon.bi-trash', { state: 'visible' });
+    await page.locator('.oxd-icon.bi-trash').nth(0).click();
     await page.locator('//*[@id="app"]/div[3]/div/div/div/div[3]/button[2]').click();
 });
 
